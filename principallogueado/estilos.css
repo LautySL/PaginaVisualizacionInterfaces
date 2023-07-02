@@ -1,7 +1,7 @@
 header {
     background-color: #003352;
-    border-bottom: #181818;
-    border-bottom-width:24cm;
+    border-bottom: 1px rgba(1, 24, 74, 0.286) solid;
+    border-bottom-width:0.06cm;
     margin: -10px;
 }
 
@@ -9,6 +9,40 @@ main {
     background-size:cover;
     background-position: center;
     background-color: #003352;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.botondecostado {
+    padding: 0px 0px 0px -10px;
+    border: none;
+    cursor: pointer;
+    font-style:unset;
+    background: none;
+    color: rgb(84, 84, 251);
+    transition: .5s ease;
+}
+
+.botondecostado:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.dividiendo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.momento {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
@@ -27,7 +61,12 @@ nav {
     background-image: linear-gradient(to right, #003352, transparent);
 }
 
-button {
+body {
+    background-color: #023657;
+    color: #fff;
+}
+
+.BotonDelHeader {
     transition: background-color .5s ease;
     color: #fff;
     border: 2px white solid;
@@ -42,7 +81,7 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
+.BotonDelHeader:hover {
     color: #001F3F;
     background-color: #fff;
     border: none;
@@ -50,8 +89,30 @@ button:hover {
     border: 2px white solid;
 }
 
+.progresos {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.materias {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.materia {
+    border: 1px rgb(116, 116, 116) solid;
+    border-radius: 15px;
+    padding: 0px 100px 0px 10px;
+}
+
 .progreso {
-    border: 2px black solid;
+    border: 1px rgb(95, 95, 95) solid;
+    border-radius: 10px;
+    padding: 0px 100px 0px 10px;
+}
+
+.contenido {
+    padding: 60px 410px 330px 300px;
 }
 
 .Logo {
@@ -63,4 +124,13 @@ button:hover {
 #cuvi {
     width: 100px; /* Ajusta el ancho según tus preferencias */
     height: auto; /* Ajusta la altura automáticamente en proporción */
+}
+
+footer {
+    background-color: #181818;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
 }
