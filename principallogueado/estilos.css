@@ -1,9 +1,8 @@
 header {
     background-color: #003352;
-    padding-right: 20px;
-    color: #fff;
     border-bottom: #181818;
     border-bottom-width:24cm;
+    margin: -10px;
 }
 
 main {
@@ -29,7 +28,7 @@ nav {
 }
 
 button {
-    transition: all .5s ease;
+    transition: background-color .5s ease;
     color: #fff;
     border: 2px white solid;
     font-family:'Montserrat', sans-serif;
@@ -43,10 +42,25 @@ button {
     border-radius: 4px;
 }
 
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border: 2px white solid;
+}
+
+.progreso {
+    border: 2px black solid;
+}
+
 .Logo {
-    max-width: 10%;
-    height: 10px;
-    width: 10px;
+    max-width: 0%;
     padding: 0px;
     margin: 0;
+}
+
+#cuvi {
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Ajusta la altura automáticamente en proporción */
 }
