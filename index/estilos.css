@@ -81,6 +81,15 @@ main {
   .left, .right {
     flex-basis: 50%;
 }
+
+.Logo {
+  display: flex;
+}
+
+.textologo {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
+}
   
   .center {
     flex-basis: 60%;
