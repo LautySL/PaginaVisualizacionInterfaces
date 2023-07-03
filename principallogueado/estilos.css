@@ -64,6 +64,7 @@ nav {
 body {
     background-color: #023657;
     color: #fff;
+    padding: none;
 }
 
 .BotonDelHeader {
@@ -102,8 +103,18 @@ body {
 .materia {
     border: 1px rgb(116, 116, 116) solid;
     border-radius: 15px;
-    padding: 0px 100px 0px 10px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.materia {
+    width: 250px; /* Puedes ajustar el ancho según tus preferencias */
+    height: 350px; /* Puedes ajustar la altura según tus preferencias */
+  }
 
 .progreso {
     border: 1px rgb(95, 95, 95) solid;
@@ -121,9 +132,32 @@ body {
     margin: 0;
 }
 
+.abajodetodo {
+    padding:0%;
+}
+
+.abajodefoto {
+    background-color: aqua;
+}
+
 #cuvi {
     width: 100px; /* Ajusta el ancho según tus preferencias */
     height: auto; /* Ajusta la altura automáticamente en proporción */
+}
+
+.abajo {
+    display: flex;
+}
+
+.imagendecurso {
+    height: 6.5cm;
+    width: 6.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 0px 0px 0px 00px;
+    align-items: center;
+    border-radius: 15px;
 }
 
 footer {
