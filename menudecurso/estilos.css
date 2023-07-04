@@ -1,0 +1,261 @@
+header {
+    background-color: #003352;
+    border-bottom: 1px rgba(1, 24, 74, 0.286) solid;
+    border-bottom-width:0.06cm;
+    margin: -10px;
+}
+
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botondecostado {
+    padding: 0px 0px 0px -10px;
+    border: none;
+    cursor: pointer;
+    font-style:unset;
+    background: none;
+    color: rgb(84, 84, 251);
+    transition: .5s ease;
+}
+
+.botondecostado:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+}
+
+.contenedor-principal {
+    padding: 102px;
+}
+
+body {
+    background-color: #023657;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.BotonDelHeader {
+    transition: background-color 0.5s ease;
+    color: #fff;
+    border: 2px white solid;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px 0px 8px 0px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cambia a tres columnas */
+    gap: 10px; /* Agrega un espacio de 10px entre los elementos */
+    border: #ffffff 2px solid; /* Agrega el borde a la tabla */
+    border-radius: 25px; /* Aplica el radio de borde a la tabla */
+    padding: 10px; /* Ajusta el relleno de la tabla */
+}
+
+.BotonDelHeader:hover {
+    color: #001F3F;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border: 2px white solid;
+}
+
+.contenido {
+    padding: 60px 410px 200px 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Logo {
+    max-width: 0%;
+    padding: 0px;
+    margin: 2px;
+}
+
+.abajodetodo {
+    padding: 0%;
+}
+
+.abajodefoto {
+    background-color: #04578b;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+#cuvi {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: none;
+}
+
+.imagendelcurso {
+    border: #ffffff 2px solid;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-left: 20px; /* Agrega este margen izquierdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.imagendelcurso img {
+    max-width: 560px;
+    height: auto;
+    border: #181818 2px solid;
+    border-radius: 25px;
+}
+
+.pythonimagen {
+    width: 50px;
+    height: 50px;
+}
+
+.contenidocontenedor {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.detallesdelcurso {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contenido-derecha {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-principal {
+    display: flex;
+    align-items: center;
+}
+
+.contenidocontenedor div {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.contenidocontenedor p:not(:last-child) {
+    margin-bottom: -5px;
+  }
+
+  .contenidocontenedor p:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: -5px;
+}
+
+.contenidocontenedor button {
+    position: relative;
+    top: -10px;
+  }
+
+
+  .boton-verde {
+    background-color: rgb(31, 157, 31);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .boton-azul {
+    background-color: rgb(19, 54, 129);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .boton-verde,
+.boton-azul {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.botones-contenedor {
+  display: flex;
+  justify-content: flex-end;
+  transition: 0.5s ease;
+}
+
+.pmodificar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mensaje {
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+  }
+
+  .mensaje-botones {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-right: 360px;
+  }
+  

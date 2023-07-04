@@ -49,6 +49,16 @@ body {
     margin: 0;
 }
 
+.abajodefoto:hover {
+    background-color: #0577be;
+    cursor: pointer;
+}
+
+.abajodefoto:hover h3,
+.abajodefoto:hover h4 {
+    text-decoration: underline;
+}
+
 .BotonDelHeader {
     transition: background-color 0.5s ease;
     color: #fff;
@@ -130,6 +140,7 @@ body {
     justify-content: space-between;
     padding: 10px;
     padding-bottom: 30px;
+    transition: 0.5s ease;
 }
 
 #cuvi {
