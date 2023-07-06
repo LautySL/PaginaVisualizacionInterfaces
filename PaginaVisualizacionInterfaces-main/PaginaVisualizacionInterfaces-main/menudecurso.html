@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuvi - Menu de curso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-abcdef1234567890" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="menudecurso/estilos.css">
+    <style>
+        .tabla {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            border: #ffffff 2px solid;
+            border-radius: 25px;
+            padding: 10px;
+        }
+
+        .contenidocontenedor p:not(:last-child) {
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 10px;
+        }
+        .contenidocontenedor p:not(:last-child) {
+         margin-bottom: -5px;
+        }
+        .BotonDelHeader {
+            transition: background-color 0.5s ease;
+        }
+        
+        .BotonDelHeader:hover {
+            background-color: #001F3F;
+            cursor: pointer;
+        }
+        
+        .boton-verde,
+        .boton-azul {
+            transition: background-color 0.5s ease;
+        }
+        
+        .boton-verde:hover {
+            background-color: rgb(119, 202, 37);
+            cursor: pointer;
+        }
+        
+        .boton-azul:hover {
+            background-color: rgb(39, 129, 232);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="sectionheader">
+        <header id="HeaderV2" class="ClaseDelHeader">
+            <nav>
+                <div class="Logo">
+                    <img id="cuvi" src="index/Cuvi.png" alt="">
+                </div>
+                <div class="Explore">
+                    <button type="button" class="BotonDelHeader">
+                       <a>Explorar</a> 
+                    </button>
+                </div>
+                <div class="MenuContenido">
+                    <button class="BotonDelHeader">
+                        <a>Contáctanos</a>
+                    </button>
+                </div>
+                <div class="ServiciosClase">
+                    <button class="BotonDelHeader">
+                        <a>Servicios</a>  
+                    </button>
+                </div>
+                <div class="Sesion">
+                    <button class="BotonDelHeader">
+                        <a>Cerrar Sesión</a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="contenedor-principal">
+            <div class="imagendelcurso">
+                <img src="https://img.freepik.com/premium-photo/young-asian-man-using-laptop-blue-background_741371-357.jpg?w=2000" alt="">
+            </div>
+            <div class="contenido-derecha">
+                <div class="detallesdelcurso">
+                    <div class="titulos">
+                        <h1>Curso de introducción a Python</h1>
+                        <img class="pythonimagen" src="index/Python.png" alt="">
+                    </div>
+                    <p class="pmodificar">Aprende Python desde cero. Eleva tus oportunidades con este lenguaje en gran crecimiento para áreas como data science, desarrollo backend, inteligencia artificial, IoT y más. Crea tus primeros programas utilizando variables, estructuras de datos, condicionales y ciclos.</p>
+                    <h3>En este curso aprenderas:</h3>
+                    <ul class="lista">
+                        <li>Usos de una terminal o línea de comandos.</li>
+                        <li>Tipos de datos y operaciones.</li>
+                        <li>Variables y asignaciones.</li>
+                        <li>Manejo de estructuras de datos.</li>
+                        <li>Sentencias Condicionales.</li>
+                        <li>Implementación de funciones.</li>
+                        <li>Manejo de librerías.</li>
+                    </ul>
+                </div>
+                <div class="debajodedetalles">
+                    <div class="contenedor">
+                        <section class="tabla">
+                            <div class="contenidocontenedor">
+                                <p>Duración</p>
+                                <p>5 semanas</p>
+                            </div>
+                            <div class="contenidocontenedor">
+                                <p>Frecuencia semanal</p>
+                                <p>2 encuentros de dos horas</p>
+                            </div>
+                            <div class="contenidocontenedor">
+                                <p>Modalidad</p>
+                                <p>Online</p>
+                            </div>
+                            <div class="contenidocontenedor">
+                                <p>Grupos reducidos</p>
+                                <p>Promedio 25 personas</p>
+                            </div>
+                            <div class="contenidocontenedor">
+                                <p>Requisitos previos</p>
+                                <button><a>Ver requisitos</a></button>
+                            </div>
+                            <div class="contenidocontenedor">
+                                <p>Profesor del curso</p>
+                                <p>Ramirez Perez</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="botones-contenedor">
+                    <div class="mensaje-botones">
+                        <p class="mensaje">Al contratar aceptas los Términos de Servicio y las Políticas de privacidad</p>
+                    </div>
+                    <div class="botones">
+                        <button class="boton-verde"><h3>Contratar curso</h3></button>
+                        <button class="boton-azul"><h3>Consultar fechas</h3></button>    
+                    </div>
+              </div>
+            </div>
+        </div>
+        <section class="debajo">
+        </section>
+        <footer>
+            <div class="contact-info">
+                <p>Copyright Cuvi (c) 2023 </p>
+            </div>  
+            <div class="social-media">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>      
+        </footer>
+    </section>
+</body>
+</html>
