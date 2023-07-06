@@ -187,7 +187,7 @@ footer {
   }
 
   .contenidocontenedor p:not(:last-child) {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 3px solid rgb(168, 217, 120);
     padding-bottom: 10px;
     margin-bottom: -5px;
 }
