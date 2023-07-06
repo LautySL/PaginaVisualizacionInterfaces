@@ -26,7 +26,7 @@ h3 {
     cursor: pointer;
     font-style:unset;
     background: none;
-    color: rgb(84, 84, 251);
+    color: rgb(168, 217, 120);
     transition: .5s ease;
 }
 
@@ -63,14 +63,14 @@ nav {
 
 body {
     background-color: #023657;
-    color: #fff;
+    color: rgb(246, 255, 251);
     padding: none;
 }
 
 .BotonDelHeader {
     transition: background-color .5s ease;
-    color: #fff;
-    border: 2px white solid;
+    color: rgb(168, 217, 120);
+    border: 2px rgb(168, 217, 120) solid;
     font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -84,24 +84,25 @@ body {
 
 .BotonDelHeader:hover {
     color: #001F3F;
-    background-color: #fff;
+    background-color: rgb(168, 217, 120);
     border: none;
     cursor: pointer;
-    border: 2px white solid;
+    border: 2px rgb(168, 217, 120) solid;
 }
 
 .progresos {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    
 }
 
 .materias {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
 
 .materia {
-    border: 1px rgb(116, 116, 116) solid;
+    border: 3px rgb(133, 211, 55) solid;
     border-radius: 15px;
     justify-content: space-between;
     position: relative;
@@ -109,6 +110,9 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+    
 }
 
 .materia {
@@ -117,13 +121,22 @@ body {
   }
 
 .progreso {
-    border: 1px rgb(95, 95, 95) solid;
+    border: 3px rgb(168, 217, 120) solid;
     border-radius: 10px;
     padding: 0px 100px 0px 10px;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+}
+
+
+h2,h3,h4{
+    font-family: sans-serif;
 }
 
 .contenido {
     padding: 60px 410px 330px 300px;
+
+    
 }
 
 .Logo {
@@ -136,9 +149,7 @@ body {
     padding:0%;
 }
 
-.abajodefoto {
-    background-color: aqua;
-}
+
 
 #cuvi {
     width: 100px; /* Ajusta el ancho según tus preferencias */
@@ -155,7 +166,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    padding: 0px 0px 0px 00px;
+    padding: 0px 0px 0px 0px;
     align-items: center;
     border-radius: 15px;
 }
@@ -168,3 +179,11 @@ footer {
     padding-top: 1px;
     padding-bottom: 10px;
 }
+
+
+
+
+
+
+
+
