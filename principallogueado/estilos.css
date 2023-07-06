@@ -5,9 +5,19 @@ header {
     margin: -10px;
 }
 
-h2,
+main {
+    background-size:cover;
+    background-position: center;
+    background-color: #003352;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h3 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 .botondecostado {
@@ -16,7 +26,7 @@ h3 {
     cursor: pointer;
     font-style:unset;
     background: none;
-    color: rgb(84, 84, 251);
+    color: rgb(168, 217, 120);
     transition: .5s ease;
 }
 
@@ -39,36 +49,34 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px 5px 20px;
+    padding: 10px 20px;
+  }
+
+.header-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Ajusta el grosor de la línea según tus preferencias */
+    background-image: linear-gradient(to right, #003352, transparent);
 }
 
 body {
     background-color: #023657;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-}
-
-.abajodefoto:hover {
-    background-color: #0577be;
-    cursor: pointer;
-}
-
-.abajodefoto:hover h3,
-.abajodefoto:hover h4 {
-    text-decoration: underline;
+    color: rgb(246, 255, 251);
+    padding: none;
 }
 
 .BotonDelHeader {
-    transition: background-color 0.5s ease;
-    color: #fff;
-    border: 2px white solid;
-    font-family: 'Montserrat', sans-serif;
+    transition: background-color .5s ease;
+    color: rgb(168, 217, 120);
+    border: 2px rgb(168, 217, 120) solid;
+    font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
     font-size: 17px;
-    background-color: transparent;
+    background-color : transparent;
     padding: 10px;
     outline: none;
     border-radius: 4px;
@@ -76,50 +84,59 @@ body {
 
 .BotonDelHeader:hover {
     color: #001F3F;
-    background-color: #fff;
+    background-color: rgb(168, 217, 120);
     border: none;
     cursor: pointer;
-    border: 2px white solid;
+    border: 2px rgb(168, 217, 120) solid;
 }
 
 .progresos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
+    
 }
 
 .materias {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
 }
 
 .materia {
-    border: 1px rgb(9, 7, 59) solid;
+    border: 3px rgb(133, 211, 55) solid;
     border-radius: 15px;
     justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
     display: flex;
-    width: 250px;
-    height: 350px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    overflow: hidden;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+    
 }
 
-.divimagen {
-    flex: 1;
-}
+.materia {
+    width: 250px; /* Puedes ajustar el ancho según tus preferencias */
+    height: 350px; /* Puedes ajustar la altura según tus preferencias */
+  }
 
 .progreso {
-    border: 1px rgb(95, 95, 95) solid;
+    border: 3px rgb(168, 217, 120) solid;
     border-radius: 10px;
     padding: 0px 100px 0px 10px;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+}
+
+
+h2,h3,h4{
+    font-family: sans-serif;
 }
 
 .contenido {
-    padding: 60px 410px 200px 300px;
-    flex-grow: 1;
+    padding: 60px 410px 330px 300px;
+
+    
 }
 
 .Logo {
@@ -129,37 +146,18 @@ body {
 }
 
 .abajodetodo {
-    padding: 0%;
+    padding:0%;
 }
 
-.abajodefoto {
-    background-color: #04578b;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    padding-bottom: 30px;
-    transition: 0.5s ease;
-}
+
 
 #cuvi {
-    width: 100px;
-    height: auto;
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Ajusta la altura automáticamente en proporción */
 }
 
 .abajo {
-    flex: 1;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-}
-
-.abajo>* {
-    margin-top: auto;
 }
 
 .imagendecurso {
@@ -168,29 +166,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    padding: 0px 0px 0px 00px;
+    padding: 0px 0px 0px 0px;
     align-items: center;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
 }
 
 footer {
     background-color: #181818;
+    padding: 0px;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin: none;
-}
-
-.abajodefoto h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.abajo h4 {
-    margin: 0;
-    padding: 0;
+    padding-top: 1px;
+    padding-bottom: 10px;
 }
