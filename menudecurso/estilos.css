@@ -3,6 +3,7 @@ header {
     border-bottom: 1px rgba(1, 24, 74, 0.286) solid;
     border-bottom-width:0.06cm;
     margin: -10px;
+    
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     text-decoration: underline;
 }
 
+
 nav {
     display: flex;
     align-items: center;
@@ -40,6 +42,8 @@ body {
     color: #fff;
     padding: 0;
     margin: 0;
+    font-size: 18px;
+
 }
 
 .BotonDelHeader {
@@ -56,11 +60,23 @@ body {
     margin: 5px 0px 8px 0px;
     outline: none;
     border-radius: 4px;
+
+}
+
+.boton-cerrarsesion{
+    text-decoration: none;
+    color: rgb(168, 217, 120);
+}
+
+.boton-explorar{
+    text-decoration: none;
+    color: rgb(168, 217, 120);
 }
 
 .botones {
     display: flex;
     justify-content: space-between;
+    
 }
 
 
@@ -69,10 +85,13 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    border: #ffffff 2px solid;
+    border: rgb(168, 217, 120) 5px solid;
     border-radius: 25px;
     border-right: -50px;
     padding: 10px;
+    font-size: 18px;
+    
+    
 }
 
 .BotonDelHeader:hover {
@@ -159,6 +178,9 @@ footer {
     align-items: center;
 }
 
+
+
+
 .titulos {
     display: flex;
     justify-content: space-between;
@@ -178,16 +200,26 @@ footer {
 .contenido-derecha {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    justify-content: center;
 }
+
+
+
+
 
 .contenedor-principal {
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
 .contenidocontenedor div {
     margin-bottom: 10px;
     position: relative;
+    
 }
 
 .contenidocontenedor p:not(:last-child) {
@@ -217,34 +249,30 @@ footer {
     background-color: rgb(142, 206, 74);
     color: rgb(25, 68, 161);
     padding: 0px 20px;
-    border: 2px white solid;
+    border: 2px rgb(142, 206, 74) solid;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
     margin-right: 50px;
     margin-bottom: 10px; /* Agrega esta línea */
+    width: 200px;
 }
 
   .boton-azul {
-    border: 2px solid white;
+    border: 2px solid rgb(142, 206, 74);
     background-color: #04578b;
-    color: white;
+    color: rgb(142, 206, 74);
     border-radius: 25px;
     padding-left: 10px;
+    
   }
   
-  .boton-verde:hover,
-  .boton-verde:focus,
-  .boton-verde:hover h3,
-  .boton-verde:focus h3 {
-      background-color: rgb(152, 202, 103);
+  .boton-verde:hover{
+      background-color: rgb(227, 255, 199);
       cursor: pointer;
   }
   
-  .boton-azul:hover,
-  .boton-azul:focus,
-  .boton-azul:hover h3,
-  .boton-azul:focus h3 {
+  .boton-azul:hover{
       background-color: rgb(25, 68, 161);
       cursor: pointer;
   }
@@ -254,6 +282,8 @@ footer {
   justify-content: space-between;
   transition: 0.5s ease;
   margin-top: 30px;
+  
+
 }
 
 .pmodificar {
@@ -280,5 +310,6 @@ li {
     align-items: center;
     margin-top: 15px;
     padding-right: 360px;
+    text-align: center;
   }
   

@@ -30,6 +30,15 @@ h3 {
     transition: .5s ease;
 }
 
+.boton-explorar{
+    text-decoration: none;
+    color: rgb(168, 217, 120);
+}
+
+.boton-cerrarsesion{
+    text-decoration: none;
+    color: rgb(168, 217, 120);
+}
 .botondecostado:hover {
     color: aqua;
     text-decoration: underline;

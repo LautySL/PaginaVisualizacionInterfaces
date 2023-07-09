@@ -24,6 +24,11 @@ nav {
     padding: 10px 20px;
   }
 
+.boton-sesion{
+    text-decoration: none;
+    color: rgb(168, 217, 120);
+}
+
 .center {
     border-radius: 22px;
     border: 7px solid ;

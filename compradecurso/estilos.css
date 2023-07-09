@@ -4,6 +4,9 @@ header {
     padding-right: 20px;
     color: #fff;
 }
+*{
+    font-family: sans-serif;
+}
 
 .cupon {
     margin: 10px 160px 30px 40px;
@@ -36,6 +39,7 @@ form {
 
 .inscripcioncolumnas {
     display: flex;
+    
 }
 
 .ingresatusdatos {
@@ -175,6 +179,7 @@ label {
     background-color: #00263d;
     color:rgb(168, 217, 120);
     padding: 0px 4px 4px 4px;
+    border-radius: 10px;
 }
 
 .precio div {
@@ -263,6 +268,7 @@ select {
 .columna2 {
     display: column;
     padding: 40px 100px 0px 0px;
+    
 }
 
 body {
@@ -294,6 +300,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     padding: 1px 30px 30px 30px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .inscripciondetalle {
@@ -303,6 +310,7 @@ body {
     border-bottom: 2px solid #00263d;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .incluyedetalles {
@@ -312,15 +320,50 @@ body {
     margin-right: 50px;
     background-color: #00263d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    
 }
 
 .incluyebody {
-    padding: 0px 0px 30px 20px;
+    padding: 0px 30px 0px 10px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: #143d57;
     border: 2px solid #00263d;
+    border-radius: 0px 0px 10px 10px;
+    
 }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+  
+  .item img {
+    margin-right: 10px;
+}
+  
+  .item span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.item span {
+    font-size: 16px;
+    color: rgb(181, 226, 136);
+}
+
+.item strong {
+    font-size: 18px;
+    color: rgb(152, 218, 87);
+}
+
+.item img {
+    margin-right: 10px;
+    filter: brightness(305%) saturate(220%) hue-rotate(310deg);
+  }
 
 .incluyebody p {
     display: block;
@@ -504,6 +547,7 @@ img {
     padding: 10px 10px 10px 10px;
     outline: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .botondesubir:hover {
@@ -512,6 +556,7 @@ img {
     border: none;
     border: 2px rgb(168, 217, 120) solid;
     cursor:pointer;
+    
 }
 
 .volverboton {
@@ -529,7 +574,10 @@ img {
     text-underline-offset: none;
     cursor: pointer;
     text-decoration: none;
+    border-radius: 10px;
 }
+
+
 
 .imagenes {
     display: flex;
@@ -550,6 +598,9 @@ img {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+
 }
 
 .sitienescupon {
