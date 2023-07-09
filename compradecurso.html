@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de curso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-abcdef1234567890" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="compradecurso/estilos.css">
+</head>
+<body>
+    <header id="HeaderV2" class="ClaseDelHeader">
+        <nav class="header">
+            <div class="Logo">
+                <img id="cuvi" src="index/Cuvi.png" alt="">
+                <h3 class="textologo">Cursos virtuales sobre programación</h3>
+            </div>
+            <div class="Sesion">
+              <button class="cupon">
+                <a class="megustalavr">Tengo un cupón</a>
+              </button>
+            </div>
+        </nav>
+    </header>
+   <div class="inscripcion">
+    <div class="procesodeinscripcion">
+        <strong>PROCESO DE INSCRIPCIÓN</strong>
+    </div>
+    <div class="inscripcioncolumnas">
+        <div class="columna1">
+            <div class="inscripcionnav">
+                <div class="cargardatos"><strong>Cargar datos</strong>
+                </div>
+                <div class="confirmarfecha"> Confirmar fecha</div>
+                <div class="elegirpago">Elegir pago</div>
+            </div>
+            <div class="inscripcioncuerpo">
+                <form action="inscripcionconfirmar">
+                    <div class="ingresatusdatos">Ingresa tus datos</div>
+
+                    <div class="nombredatos">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="normal" name="nombreAlumno" id="nombrealumno" placeholder="Juan">
+                    </div>
+                    <div class="apellidodatos">
+                        <label for="name">Apellido/s</label>
+                        <input type="text" class="normal"name="apellidoAlumno" id="apellidoalumno" placeholder="Perez">
+                    </div>
+                    <div class="documentodatos">
+                        <label for="name">Numero de Documento</label>
+                        <input type="text" class="normal" name="documentoAlumno" id="documentoalumno" placeholder="DNI">
+                    </div>
+                    <div class="maildatos">
+                        <label for="name">Mail</label>
+                        <input type="text" class="normal" name="mailAlumno" id="mailalumno" placeholder="juanperez@gmail.com">
+                    </div>
+                    <div class="tel-block">
+                        <div class="pais">
+                            <label>País</label>
+                            <select id="pais" name="pais">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="España">España</option>
+                            </select>
+                        </div>
+                        <div class="numtelefono">
+                            <label for="tel">Número de teléfono móvil</label>
+                            <input type="text" class="telnormal" name="tel" id="tel" placeholder="11 2345-6789">
+                        </div>
+                    </div>
+                    <div class="terminosycondici">
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <div class="condicion">
+                            Acepto los
+                            <a class="ref">términos y condiciones del servicio.</a>
+                        </div>
+                    </div>
+                    <div class="sitioprotegido">
+                        Este sitio está protegido por re CAPTCHA y se aplican la 
+                        <a class="ref">política de privacidad</a>
+                        y
+                        <a class="ref">términos del servicio de Google.</a>
+                    </div>
+                    <div class="botonesd">
+                        <a href="menudecurso.html" class="volverboton">Volver</a>
+                        <button type="submit" class="botondesubir">Continuar</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="columna2">
+            <div class="inscripciondetalle">
+                <span class="detalle"><strong>Detalle de la inscripción</strong></span>
+            </div>
+            <div class="inscripcionbody">
+                <div>
+                    <h2 class="nombredelcurso">
+                        Curso de introduccion a Python
+                        <img src="compradecurso/Python_icon_(black_and_white).svg.png" class="pythonimagen" alt="">
+                    </h2>
+                    <div class="precio">
+                        <div>
+                            <span>Precio:</span>
+                            <span class="precio-valor">$&nbsp;27.480,00</span>
+                        </div>
+                        <div>
+                            <span>Descuento 40%:</span>
+                            <span class="descuento-valor">-$&nbsp;10.992,00</span>
+                        </div>
+                    </div>
+                    <div class="preciototal">
+                        <div class="fw600">
+                            Precio total:
+                            <span class="data-precio-final">$&nbsp;16.488,00</span>
+                        </div>
+                    </div>
+                    <div class="sitienescupon">
+                        Si tienes un cupón, podrás ingresarlo cuando selecciones el medio de pago.
+                    </div>
+                </div>
+            </div>
+            <div class="incluyedetalles">
+                Tu inscripción incluye
+            </div>
+            <div class="incluyebody">
+                <div class="primero">
+                    <div class="imagen">
+                    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/aceptado.svg" width="23">
+                    La capacidad de cancelar hasta <strong>48 Hs antes</strong>.
+                    </div>
+                </div>
+                <div class="segundo">
+                    <div class="imagen">
+                    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/aceptado.svg" width="23">
+                    <strong>Tienes acceso total a la plataforma</strong> con material de lectura, notas de interes y videos relacionados con la temática del curso elegido.
+                    </div>
+                </div>
+                <div class="tercero">
+                    <div class="imagen">
+                    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/aceptado.svg" width="23">
+                    <strong>Garantía de aprendizaje</strong>
+                    Te damos la oportunidad de volver a realizar el curso 2 veces más sin costo alguno, sin importar el motivo.
+                    </div>
+                </div>
+                <div class="cuarto">
+                    <div class="imagen">
+                    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/aceptado.svg" width="23">
+                    El dinero es transferible a otro curso o persona antes del inicio.    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+<div class="imagenes">
+    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/inscripcion-pago100seguro.svg" alt="Pagos 100% seguros" class="mr10 mt10" width="85">
+    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/inscripcion-paypal.svg" alt="PayPal" class="mr10 mt10" width="90">
+    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/inscripcion-mercadopago.svg" alt="MercadoPago" class="mr10 mt10" width="90">
+    <img src="https://static.educacionit.com/educacionit/assets-legacy/svg/inscripcion-dlocal.svg" alt="dLocal" class="mr10 mt10" width="80">
+</div>
+<footer>
+    <div class="contact-info">
+        <p>Contacto: atencionalcliente@cuvi.com</p>
+        <p>CUVI. COPYRIGHT 2014-2023</p>
+      </div>  
+    <div class="social-media">
+        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      </div>      
+</footer>
+</body>
+</html>

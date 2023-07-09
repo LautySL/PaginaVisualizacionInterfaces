@@ -1,0 +1,181 @@
+header {
+    background-color: #003352;
+    border-bottom: 1px rgba(1, 24, 74, 0.286) solid;
+    border-bottom-width:0.06cm;
+    margin: -10px;
+}
+
+main {
+    background-size:cover;
+    background-position: center;
+    background-color: #003352;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.botondecostado {
+    padding: 0px 0px 0px -10px;
+    border: none;
+    cursor: pointer;
+    font-style:unset;
+    background: none;
+    color: rgb(168, 217, 120);
+    transition: .5s ease;
+}
+
+.botondecostado:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.dividiendo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.momento {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+.header-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Ajusta el grosor de la línea según tus preferencias */
+    background-image: linear-gradient(to right, #003352, transparent);
+}
+
+body {
+    background-color: #023657;
+    color: rgb(246, 255, 251);
+    padding: none;
+}
+
+.BotonDelHeader {
+    transition: background-color .5s ease;
+    color: rgb(168, 217, 120);
+    border: 2px rgb(168, 217, 120) solid;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.BotonDelHeader:hover {
+    color: #001F3F;
+    background-color: rgb(168, 217, 120);
+    border: none;
+    cursor: pointer;
+    border: 2px rgb(168, 217, 120) solid;
+}
+
+.progresos {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.materias {
+    display: flex;
+    justify-content:space-around;
+}
+
+.materia {
+    border: 3px rgb(133, 211, 55) solid;
+    border-radius: 15px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+    
+}
+
+.materia {
+    width: 250px; /* Puedes ajustar el ancho según tus preferencias */
+    height: 350px; /* Puedes ajustar la altura según tus preferencias */
+  }
+
+.progreso {
+    border: 3px rgb(168, 217, 120) solid;
+    border-radius: 10px;
+    padding: 0px 100px 0px 10px;
+    background-color: #11364d;
+    color: rgb(246, 255, 251);
+}
+
+
+h2,h3,h4{
+    font-family: sans-serif;
+}
+
+.contenido {
+    padding: 60px 410px 330px 300px;
+
+    
+}
+
+.Logo {
+    max-width: 0%;
+    padding: 0px;
+    margin: 0;
+}
+
+.abajodetodo {
+    padding:0%;
+}
+
+
+
+#cuvi {
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Ajusta la altura automáticamente en proporción */
+}
+
+.abajo {
+    display: flex;
+}
+
+.imagendecurso {
+    height: 6.5cm;
+    width: 6.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #181818;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}

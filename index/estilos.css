@@ -1,0 +1,331 @@
+header {
+    background-color: #003352;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    border-bottom: #181818;
+    border-bottom-width:24cm;
+}
+
+
+
+main {
+    background-image: url(imagen3.png);
+    background-size:cover;
+    background-position: center;
+    background-color: #003352;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+.center {
+    border-radius: 22px;
+    border: 7px solid ;
+    background-color: #003352de;
+    border-color: rgb(168, 217, 120);
+    color: rgb(168, 217, 120);
+}
+
+.MenuContenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+}
+
+
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #181818;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+main {
+    position: relative;
+    padding: 50px;
+}
+
+.header-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Ajusta el grosor de la línea según tus preferencias */
+    background-image: linear-gradient(to right, #003352, transparent);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .left, .right {
+    flex-basis: 50%;
+}
+
+.Logo {
+  display: flex;
+}
+
+.textologo {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px;
+}
+  
+  .center {
+    flex-basis: 60%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 35px;
+}
+  
+  .container img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #67ec65;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #000000;
+    transition: background-color .5s ease;
+}
+
+.social-link:hover {
+  background-color: #fff;
+}
+  
+  .social-link i {
+    font-size: 18px;
+}
+  
+  .contact-info {
+    font-size: 14px;
+}
+
+.Titulo span {
+    color: rgb(241, 255, 225);
+    font-weight: 300;
+}
+
+.Titulo {
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.Hero-content-subtitle {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.mensaje {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+
+
+.lenguajes img {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    
+}
+
+.inputBox {
+    position: relative;
+    width: 250px;
+    padding: 10px 195px 1px 195px;
+    align-items: center;
+    margin: auto;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(168, 217, 120);
+    background: #003352de;
+    border-radius: 5px;
+    color: rgb(168, 217, 120);
+    outline: none;
+    font-size: 16px; 
+}
+
+img {
+    border-radius: 4px;
+    max-width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+button {
+    transition: background-color .5s ease;
+    color: rgb(168, 217, 120);
+    border: 2px rgb(168, 217, 120) solid;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #001F3F;
+    background-color: rgb(168, 217, 120);
+    border: none;
+    border: 2px rgb(168, 217, 120) solid;
+    cursor:pointer;
+}
+
+header a {
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#HeaderV2 {
+    background-color: #003352;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgba(5, 3, 55, 0.25);
+    color: #fff;
+    position: relative;
+    z-index: 1; /* Asegúrate de que el encabezado tenga un índice z superior */
+}
+
+#HeaderV2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid #011c2d8e;
+    background: linear-gradient(to right, #003352, transparent);
+    z-index: -1; /* Asegúrate de que el degradado esté detrás del contenido del encabezado */
+}
+
+.ClaseDelHeaderNav {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+}
+
+.in-flex {
+    flex: 1;
+}
+
+.in-flex:first-child {
+    flex:2;
+    padding: 25px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles o pantallas pequeñas */
+    header {
+      padding: 10px;
+    }
+    
+    #HeaderV2::after {
+      display: none;
+    }
+    
+    .center {
+      border: none;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    .inputBox {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    footer {
+      padding: 10px;
+    }
+    
+    .contact-info {
+      display: none;
+    }
+    
+    .social-media {
+      margin-bottom: 20px;
+    }
+
+    .ClaseDelHeaderNav {
+        justify-content: flex-start;
+      }
+      
+      .MenuContenido,
+      .ServiciosClase,
+      .Sesion {
+        display: none;
+      }
+      
+      .Explore,
+      .Contactanos {
+        display: inline-block;
+      }
+      
+      header a {
+        padding: 10px 15px;
+      }
+    
+}
